@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+div#tv-radio {
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url("../_imagens/radio-tv.png") no-repeat; /* o no repeat é pra tipo, mesmo que aja algum problema somente um tv vai ser exibida */
+}
+
+audio#musica {
+    display: block;
+    position: relative;
+    left: 575px;
+    top: 489px;
+    width: 300px; /* width é o tamanho */
+}
+
+video#filme {
+    display: block;
+    position: relative;
+    left: 35px;
+    top: 5px;
+    width: 530px;
+
+}
